@@ -1,0 +1,11 @@
+https://labs.play-with-docker.com/
+
+
+1. La opción "Play with Docker" (PWD)
+
+Es un laboratorio gratuito proporcionado por Docker que te da una instancia de Linux con Docker instalado durante 4 horas. Es ideal para lo que buscas.
+
+Entra en labs.play-with-docker.com.
+Haz login con tu cuenta de Docker Hub.
+Pulsa "Start" y luego "+ Add New Instance".
+Tendrás una terminal real en la nube.
