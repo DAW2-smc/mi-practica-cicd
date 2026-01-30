@@ -1,0 +1,17 @@
+name: Mi_Primer_CICD
+
+on:
+  push:
+    branches: [ main ] # Se activa cada vez que subes algo a la rama 'main'
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar código
+        uses: actions/checkout@v3
+
+      - name: Probar Docker
+        run: |
+          docker build -t mi-web-estatica .
+          echo "¡El contenedor se construyó correctamente!"
